@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: skyblue ;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Dancing Script', cursive; 
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+
+}
+
+.card {
+    width: 100%;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgb(205, 202, 203);
+    cursor: default;
+    transition: all 400ms ease;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.55);
+}
+
+.card :hover{
+    box-shadow:  inset 0 0 400px rgb(246, 242, 242);
+    transform:translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: rgb(5, 5, 119);
+}
+
+.card .contenido h3{
+    margin-bottom: 15px;
+}
+
+.card .contenido a{
+    text-decoration:none ;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color:#90123c;
+    border: 1px solid #90123c ;
+    border-radius: 4px;
+    
+}
+
+.card .contenido a:hover{
+    background:#90123c;
+   
+}
